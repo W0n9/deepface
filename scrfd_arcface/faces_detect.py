@@ -47,7 +47,7 @@ def faces_detect(img, config, checkpoint, score_thr):
 def main():
     args = parse_args()
     camera = cv2.VideoCapture(args.camera_id)
-    print('Press "Esc", "q" or "Q" to exit.')
+    # print('Press "Esc", "q" or "Q" to exit.')
     while True:
         ret_val, img = camera.read()
 

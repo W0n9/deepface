@@ -1,11 +1,9 @@
-import os
-import pickle
 import numpy as np
 import torch
 import torch.nn as nn
 import cv2
 import os
-import os
+import pickle
 from faces_detect import faces_detect
 from inference import inference
 from torch.utils.data.dataloader import DataLoader
@@ -76,4 +74,4 @@ if __name__ == '__main__':
         config='D:/face/insightface/detection/scrfd/configs/scrfd/scrfd_500m.py',  
         checkpoint='D:/face/insightface/detection/scrfd_500m_model.pth', 
         model_path="C:/Users/DELL/Downloads/ms1mv3_arcface_r50_fp16_backbone.pth" ,
-        model_name='r50', source = "C:/Users/DELL/Desktop/face_det/320lab.mp4", score_thr=0.7)
+        model_name='r50', source = "C:/Users/DELL/Desktop/face_det/320.mp4", score_thr=0.7)
