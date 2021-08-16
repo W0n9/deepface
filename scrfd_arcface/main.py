@@ -1,11 +1,9 @@
-import os
-import pickle
 import numpy as np
 import torch
 import torch.nn as nn
 import cv2
 import os
-import os
+import pickle
 from faces_detect import faces_detect
 from inference import inference
 from torch.utils.data.dataloader import DataLoader
